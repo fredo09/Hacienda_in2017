@@ -1,0 +1,40 @@
+<!-- Modal -->
+  <div class="modal fade" id="myReg" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+
+        <div class="" id="_AJAX_REG_">
+
+        </div>
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registro</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <form class="form-signin "style="width: 500px;" >
+              <h2 class="form-signin-heading">Registre un nuevo usuario</h2>
+                 <label for="inputEmail"  class="sr-only">Usuario</label>
+                 <input type="text"  id="user_reg" class="form-control" placeholder="Introduce usuario" required="" autofocus="">
+                 <label for="inputPassword" class="sr-only">Password</label>
+                 <input type="password" id="pass_reg" class="form-control" placeholder="Introduce Password" required="">
+                 <label for="inputPassword" class="sr-only">Email</label>
+                 <input type="email" id="email_reg" class="form-control" placeholder="Introduce email" required="">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="1" id="sesion_reg"> Recordarme
+                </label>
+              </div>
+                <button class="btn btn-block btn-primary " id="btni" type="button"  onclick="registro()" >Registrarse</button>
+            </form>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #d98c0a;
+  //#b42916
+}
+
+/*
+
+ contenido para los estilo en
+Parte de la pagina principal
+
+*/
+
+.cuadrop{
+  background: #d4d2ce;
+  margin-top: 5px;
+
+}
